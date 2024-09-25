@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <main>
+        <center>
+            <img src="9be54706813eea2587c05fe8abe0be70.jpeg" alt="" class="rounded-circle">
+        <div>
+            <button class="btn btn-primary" disabled>
+                mr_emil
+            </button>
+            <hr>
+            <h1>mr_emil<sup class="badge bg-secondary">angel</sup></h1>
+            <hr>
+            <div class="progress">
+                <div style="width: 10%;" class="progress-bar">
+
+                </div>
+            </div>
+
+            <br>
+
+            <div class="spinner-border text-success">
+
+            </div>
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+                <div class="dropdown"> <button type="button" class="btn btn-primary dropdown-toggle"
+                        data-bs-toggle="dropdown"> Dropdown button </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="6d4b8df94284cec72df39d17a1016e34.jpeg">Link 1</a></li>
+                        <li><a class="dropdown-item" href="3d-4k-black-orange-windows-logo-xekhdxexihqzxxzt.jpg">Link 2</a></li>
+                        <li><a class="dropdown-item" href="IMG-20240826-WA0120-01.jpeg">Link 3</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div>
+                <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                    <!-- Navbar content -->
+                </nav>
+
+                <nav class="navbar bg-primary" data-bs-theme="dark">
+                    <!-- Navbar content -->
+                </nav>
+
+                <nav class="navbar" style="background-color: #e3f2fd;">
+                    <!-- Navbar content -->
+                </nav>
+                <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                    <!-- Navbar content -->
+                </nav>
+
+                <nav class="navbar bg-primary" data-bs-theme="dark">
+                    <!-- Navbar content -->
+                </nav>
+
+                <nav class="navbar" style="background-color: #e3f2fd;">
+                    <!-- Navbar content -->
+                </nav>
+            </div>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        </center>
+</body>
+
+</html>
