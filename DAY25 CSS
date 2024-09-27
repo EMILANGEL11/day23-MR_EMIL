@@ -1,0 +1,104 @@
+/* ******************** WIGGLING HAND A.K.A. WAVING ******************** */
+
+/* set keyframes name as 'wiggles' */
+@keyframes wiggle { 
+
+    /* when applied, 'from' sets starting property, 'to' sets ending property */
+    from {left: 20px;} 
+    to {right: 20px;}
+}
+
+.hand-img{
+    /* position must be relative so left and right works (above) */
+    position: relative; 
+
+    /* select animation-name by @keyframes name */
+    animation-name: wiggle; 
+
+    /* select animation-duration in seconds */
+    animation-duration: 1s; 
+
+    /* optional: how many times animation plays */
+    animation-iteration-count: 6;
+}
+
+
+/* ******************** COLOR BOX CSS ******************** */
+
+/* 
+    percentages refer to the point in the duration 
+    that each property is applied
+*/
+@keyframes color-morph {
+    0%   {background-color:blue;}
+    25%  {background-color:yellow;}
+    50%  {background-color:red; }
+    75%  {background-color:green; }
+    100% {background-color:blue; }
+}
+
+.color-circle{
+    border-radius: 50%; /* makes div a circle */
+    
+    height: 300px;
+    width: 300px;
+    
+    background-color: blue;
+
+    /* animation settings */
+    animation-name: color-morph; 
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+
+
+/* ******************** RIC FLAIR ANIMATION CSS ******************** */
+
+
+/* 
+    animation starts text off screen and pulls it to original placement 
+*/
+@keyframes fly-in {
+    from {left: 110vw;}
+    to {left: 0}
+}
+
+li {
+    position: relative; 
+    animation-name: fly-in; 
+    animation-duration: 3s;  
+}
+
+/* 
+    the following delays each li before animation starts in seconds
+    staggered each item's seconds, each start a half second later
+    skipped first item so starts immediately 
+*/
+.item-2 {  animation-delay: 0.5s; } 
+.item-3 {  animation-delay: 1s; }   
+.item-4 {  animation-delay: 1.5s; } 
+.item-5 {  animation-delay: 2s; }
+.item-6 {  animation-delay: 2.5s; }
+.item-7 {  animation-delay: 3s; }
+
+
+
+
+/* ******************** SOME CSS TO LAYOUT THINGS NICELY ******************** */
+
+/* centers everything horizantally on page */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* put a little space btwn each example */
+.container {
+    margin: 40px;
+}
+
+/* set size of ric flair image */
+.ric-img {
+    height: 300px;
+}
